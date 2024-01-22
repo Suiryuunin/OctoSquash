@@ -355,22 +355,11 @@ const setup = (reset, load = 1) => {
 
 };
 
-window.addEventListener("load", setup(true, lastPage));
+setup(true, lastPage);
+// window.addEventListener("load", setup(true, lastPage));
 window.addEventListener("resize", resize);
 window.addEventListener("click", () => {
 
     audio.play();
     
 }, {once: true});
-
-
-
-// audio.addEventListener("ended", () => {
-
-//     console.log(audio.currentTime);
-
-//     audio.currentTime = 7.9;
-//     audio.play();
-//     console.log(audio.currentTime);
-
-// });

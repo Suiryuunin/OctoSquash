@@ -1,2 +1,2 @@
-#Octo Squash
+Octo Squash
 Squashed Octo?

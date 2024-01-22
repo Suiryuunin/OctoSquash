@@ -355,7 +355,7 @@ const setup = (reset, load = 1) => {
 
 };
 
-setup(true, lastPage);
+setup(true, 0.1);
 // window.addEventListener("load", setup(true, lastPage));
 window.addEventListener("resize", resize);
 window.addEventListener("click", () => {
